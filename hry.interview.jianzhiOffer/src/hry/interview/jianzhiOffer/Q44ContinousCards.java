@@ -35,8 +35,7 @@ public class Q44ContinousCards {
 				numGap += num[i+1]-num[i]-1;
 			}
 		}
-		return numGap>numZero?false:true;
-		
+		return numGap>numZero?false:true;		
 	}
 	
 }
