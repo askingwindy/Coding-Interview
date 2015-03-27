@@ -1,10 +1,11 @@
 package hry.interview.jianzhiOffer.test;
 
 import static org.junit.Assert.*;
-import hry.interview.jianzhiOffer.Q44ContinousCards;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import hry.interview.jianzhiOffer.Q44ContinousCards;
 
 public class Q44ContinousCardsTest {
 	
