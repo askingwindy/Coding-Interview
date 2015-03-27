@@ -4,6 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q45LastNumberInCircle {
+	public int LastRemainintSolution2(int n, int m){
+		if(n<1 || m<1){
+			return -1;
+		}
+		int last = 0;
+		for(int i=2; i<=n; i++){
+			last = (last + m)%i;
+		}
+		return last;
+	}
 	public int LastRemainintSolution1(int n, int m){
 		if(n<1 || m<1){
 			return -1;
