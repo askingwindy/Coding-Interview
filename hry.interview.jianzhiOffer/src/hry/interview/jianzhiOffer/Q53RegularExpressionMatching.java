@@ -7,6 +7,12 @@ package hry.interview.jianzhiOffer;
  *
  */
 public class Q53RegularExpressionMatching {
+    /**
+     * 判断s与p是否正则匹配
+     * @param s 原字符串
+     * @param p 需要匹配的字符串
+     * @return
+     */
     public boolean isMatch(String s, String p) {
         if((s==null&&p==null)||(s.length()==0 && p.length()==0)){
             return true;
@@ -43,9 +49,21 @@ public class Q53RegularExpressionMatching {
         }
         
     }
+    /**
+     * 判断c1与d1是否相等
+     * @param c1 s中的char
+     * @param d1 p中的char
+     * @return
+     */
     private boolean compare(char c1, char d1){
         return d1=='.'||c1==d1;
     }
+    
+    /**
+     * 判断p是否为空
+     * @param p 表示字符串p
+     * @return
+     */
     private boolean checkEmpty(String p){
         if((p.length()&0x01) !=0)return false;
         for(int i=1; i<p.length(); i+=2){
