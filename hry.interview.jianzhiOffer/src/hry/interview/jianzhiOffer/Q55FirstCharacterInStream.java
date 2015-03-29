@@ -3,7 +3,18 @@ package hry.interview.jianzhiOffer;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * 求得s中第一个不重复的char,如果没有返回'\0'
+ * @author RY
+ *
+ */
 public class Q55FirstCharacterInStream {
+	/**
+	 * 利用LinkedHashMap，保证键值的插入是有序的
+	 * （TreeMap是保证键值自然有序，而不是插入有序）
+	 * @param s
+	 * @return
+	 */
 	public char firstAppearOnce(String s){
 		if(s==null || s.length()==0){
 			return '\0';
