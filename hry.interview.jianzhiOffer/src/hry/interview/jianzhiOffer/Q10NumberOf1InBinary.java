@@ -1,4 +1,5 @@
-package hry.interview.jianzhiOffer.test;
+package hry.interview.jianzhiOffer;
+
 
 /**
  * 求得二进制数字中1的个数
