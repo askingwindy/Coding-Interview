@@ -2,7 +2,7 @@ package hry.interview.jianzhiOffer.test;
 
 /**
  * 求得二进制数字中1的个数
- * 已通过leetcode验证：
+ * 已通过leetcode验证：https://leetcode.com/problems/number-of-1-bits/
  * @author RY
  *
  */
