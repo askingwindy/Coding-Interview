@@ -1,5 +1,10 @@
 package hry.interview.jianzhiOffer;
 
+/**
+ * 9题，得到斐波拉契数列
+ * @author RY
+ *
+ */
 public class Q9Fibonacci {
 	public long fibonacci(int n){
 		if(n<= 0){
