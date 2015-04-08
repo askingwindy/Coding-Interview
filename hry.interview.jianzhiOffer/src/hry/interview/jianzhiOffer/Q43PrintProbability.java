@@ -45,6 +45,10 @@ public class Q43PrintProbability {
 	}
     public static void main( String[] args ) throws ClassNotFoundException
     {
+    	new Q43PrintProbability().printProbability(1);
     	new Q43PrintProbability().printProbability(2);
+    	new Q43PrintProbability().printProbability(3);
+    	new Q43PrintProbability().printProbability(4);
+    	new Q43PrintProbability().printProbability(11);
     }
 }
